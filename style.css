@@ -1,82 +1,114 @@
-body{
-    margin: 0;
-    padding: 0;
-    font-family: 'Roboto',Arial,Helvetica,sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
 }
-header{
+header {
   display: flex;
   justify-content: space-between;
 }
-.logo{
+.logo {
   /* margin-left:52px; */
   margin-top: 10px;
   border: 1px solid black;
 }
-.anc-logo{
+.anc-logo {
   padding-left: 46px;
   border: black 1px solid;
 }
-.navigation{
+.navigation {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
   padding-top: 40px;
   border: solid 1px black;
+  justify-content: space-between;
+  width: 40%;
 }
-.navigation-link{
-    text-decoration: none;
-    color: #5c5c5c;
-    font-size: 15px;
-    font-weight: 400;
-    font-family: 'Roboto',Arial,Helvetica,sans-serif;
-    display: flex;
-    margin-left:28px;
-    float: left;
+.navigation-link {
+  text-decoration: none;
+  color: #5c5c5c;
+  font-size: 15px;
+  font-weight: 400;
+  font-family: "Roboto", Arial, Helvetica, sans-serif;
+
 }
-.background{
-  background-image: ;
-  background: linear-gradient(to bottom, gray, transparent) url("netcel-hero.jpg");
+.background {
+  background-image: linear-gradient(to bottom, rgb(37, 37, 37), transparent),
+    url("netcel-hero.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
   height: 1000px;
   color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   /* width: 100%; */
   /* border: black 1px solid; */
   /* margin-top: -220px;   */
 }
-.background-image{
-width: 100%;
-height: 50em;
+/* For Backgrounf text heading 1 */
+.back-text-1
+{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 20%;
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 66px;
+}
+/* For Backgrounf text heading 2 */
+.back-text-2{
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin-top: 20%;
+  font-size: 30px;
+  font-weight: 300;
+  line-height: 33px;
+}
+.background-image {
+  width: 100%;
+  height: 50em;
 }
 .container {
-    position: relative;
-    width: 1200px;
-    height: 100px;
-    margin: 240px auto;
-
-  }
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
 .box1 {
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #385D77;
-    float: left;
-  }
-  .box2 {
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #ED1556;
-    float: left;
-  }
-  .box3 {
-    position: relative;
-    width: calc(400px - 30px);
-    height: calc(300px - 30px);
-    background: #00947E;
-    float: left;
-  }
-  .box-head{
-    text-align: center;
-    font-weight: 100;
-  }
+  width: 400px;
+  height: 400px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.box2{
+  width: 400px;
+  height: 400px;
+  
+}
+#blue {
+  background: #385d77;
+}
+#pink {
+  background: #ed1556;
+}
+#green {
+  background: #00947e;
+}
+.box1 h2 {
+  width: 60%;
+  font-size: 35px;
+  font-weight: 300;
+}
+.box1 p {
+  width: 60%;
+}
