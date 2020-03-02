@@ -2,29 +2,32 @@ body {
   margin: 0;
   padding: 0;
   font-family: "Roboto", Arial, Helvetica, sans-serif;
-  background-color: #F3F3F3;
+  /* background-color: #F3F3F3; */
 }
 header {
   display: flex;
   justify-content: space-between;
 }
+/* netcel logo.png */
 .logo {
   /* margin-left:52px; */
   margin-top: 10px;
-  border: 1px solid black;
+  background-color: #fff;
 }
 .anc-logo {
   padding-left: 46px;
-  border: black 1px solid;
+  
 }
+/* Navigation links */
 .navigation {
   display: flex;
   justify-content: flex-end;
   margin-right: 50px;
   padding-top: 40px;
-  border: solid 1px black;
+  padding-bottom: 50px;
   justify-content: space-between;
-  width: 40%;
+  width: 47%;
+  background-color:  #fff;
 }
 .navigation-link {
   text-decoration: none;
@@ -39,21 +42,28 @@ header {
     url("netcel-hero.jpg");
   background-size: 100%;
   background-repeat: no-repeat;
-  height: 1000px;
+  height: 600px;
   color: white;
   display: flex;
   flex-direction: column;
-
+  margin-left: 5px;
+  /* margin-bottom: 20%; */
+  background-color: #fff;
 }
 /* For Backgrounf text heading 1 */
 .back-text-1
 {
   display: flex;
   flex-direction: column;
-  margin-top: 20%;
-  font-size: 32px;
-  font-weight: 300;
+  margin-top: 3%;
+  margin-left: 2%;
   line-height: 66px;
+}
+.back-text-1 h1
+{
+  font-size: 60px;
+  font-weight: 300;
+  line-height: 33px;
 }
 /* For Backgrounf text heading 2 */
 .back-text-2{
@@ -61,6 +71,16 @@ header {
   font-size: 30px;
   font-weight: 300;
   line-height: 33px;
+  margin-left: 2%;
+
+}
+.back-text-2 h3
+{
+  font-weight: 300;
+  font-size: 30px;
+  margin-top: 0px;
+  line-height: 33px;
+  margin-bottom: 12%;
 }
 .background-image {
   width: 100%;
@@ -68,15 +88,18 @@ header {
 }
 .container {
   position: relative;
-  width: 100%;
+  /* width: 100%; */
   height: 400px;
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 3%;
+  /* margin-left: 3%; */
+  border: black 1px solid;
 }
 .box1 {
-  width: 400px;
-  height: 400px;
+  width: 418px;
+  height: 429px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,20 +125,44 @@ header {
 }
 /* Partner Section layout */
 .principle{
-  width: 80%;
-  margin-left: 10%;
+  width: 73%;
+  margin-left: 14%;
   height: 1000%;
   border: 1px solid black;
   color: black;
-
+  background-color: #fff;
+  margin-top: 15%;
+}
+.principle h1{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  text-align: center;
+  color: #5c5c5c;
 }
 .partner-image{
   background-color: #fff; 
   border: black 1px solid;
-  
+}
+.partner-image a img{
+  width: 399px;
+  height: 90px;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  padding-left: 7%;
 }
 .partner-p{
-  font-size: 22px;
+  font-size: 24px;
+  font-weight: 300;
+  color: #5c5c5c;
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-bottom: 10%;
+}
+section
+{
+
+  background-color: #F3F3F3;
 }
 /* Work Delivers */
 .delivers
@@ -123,6 +170,14 @@ header {
   display: flex;
   flex-direction: column;
   border: 1px solid black;
+}
+.delivers h1{
+  font-size: 40px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #5c5c5c;
+  text-align: center;
+  margin-top: 4%;
 }
 .sections
 {
