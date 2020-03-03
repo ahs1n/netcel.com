@@ -193,15 +193,19 @@ section
 }
 .branch
 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
   width: 405px;
   height: 231px;
+
 }
 .sections
 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
-  /* margin-bottom: 50px; */
+  margin-bottom: 50px;
   background-color: #fff;
   padding-bottom: 100px;
 
@@ -225,6 +229,7 @@ section
 /* Awards */
 .awards
 {
+  border: solid 1px black;
   display: flex;
   flex-direction: column;
   padding-bottom: 100px;
@@ -234,7 +239,7 @@ section
   line-height: 40px;
   text-align: center;
   color: #5c5c5c;
-  
+  margin-top: 5%;
 }
 .awards-img
 {
@@ -245,8 +250,25 @@ section
 /* Contacts */
 .contact
 {
+  display: flex;
+  justify-content: space-around;
   height: 223px;
   background-color: #ed1556;
+  color: #fff;
+}
+.contact a
+{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+.get_in
+{
+
+}
+.know_more a
+{
+  
 }
 .location
 {
