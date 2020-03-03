@@ -125,12 +125,14 @@ header {
 }
 /* Partner Section layout */
 .principle{
+  display: flex;
+  flex-direction: column;
   width: 73%;
   margin-left: 14%;
-  height: 1000%;
-  border: 1px solid black;
+  /* height: 1000%; */
+  /* border: 1px solid black; */
   color: black;
-  background-color: #fff;
+  background-color: #f3f3f3;
   margin-top: 15%;
 }
 .principle h1{
@@ -148,28 +150,37 @@ header {
   width: 399px;
   height: 90px;
   margin-top: 4%;
-  margin-bottom: 4%;
+  /* margin-bottom: 4%; */
   padding-left: 7%;
+  padding-bottom: 4%;
 }
 .partner-p{
+  display: flex;
+  /* border: 1px solid white; */
   font-size: 24px;
   font-weight: 300;
   color: #5c5c5c;
+  padding-top: 2%;
   padding-left: 5%;
   padding-right: 5%;
-  margin-bottom: 10%;
+  padding-bottom: 8%;
+  margin-bottom: 6%;
+  background-color: #fff;
 }
 section
-{
-
+{ 
+  height: auto;
+  width: auto;
   background-color: #F3F3F3;
 }
+
 /* Work Delivers */
 .delivers
 {
   display: flex;
   flex-direction: column;
-  border: 1px solid black;
+  margin-bottom: 5%;
+  /* border: 1px solid black; */
 }
 .delivers h1{
   font-size: 40px;
@@ -178,6 +189,12 @@ section
   color: #5c5c5c;
   text-align: center;
   margin-top: 4%;
+  
+}
+.branch
+{
+  width: 405px;
+  height: 231px;
 }
 .sections
 {
@@ -187,10 +204,22 @@ section
   /* margin-bottom: 50px; */
   background-color: #fff;
   padding-bottom: 100px;
+
 }
-#section-img
+#section-img h3
 {
   height: 250px;
+  font-size: 20px;
+  font-weight: 400px;
+  line-height: 22px;
+  color: #F7FFFF;
+}
+.sections p
+{
+  size: 20px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #333333;
 }
 
 /* Awards */
@@ -205,6 +234,7 @@ section
   line-height: 40px;
   text-align: center;
   color: #5c5c5c;
+  
 }
 .awards-img
 {
