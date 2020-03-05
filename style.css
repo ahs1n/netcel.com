@@ -344,22 +344,56 @@ section
 
 .social-webs
 {
+  
   background-color: #696969;
-  height: auto;
+  height: 200;
   width: 20%;
   clip-path: polygon(0 0, 100% 0%, 100% 99%, 14% 100%);
   border-right: 200px solid #696969;
   
 }
-.links img
+.social
 {
-  width: 80%;
-  height: 80%;
-  margin-left: 10%;
+  height: 120px;
+  width: 160px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  border: 1px solid yellow;
+}
+.social img{
+    height: 24px;
+    width: 24px;
 }
 .social
 {
   display: flex;
   flex-direction: column;
   margin-left: 90%;
+  margin-top: 20%;
 }
+.links
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 30px;
+  width: 160px;
+  background-color: yellow;
+}
+  .social a
+  {
+    color: #fffFFF;
+    margin-top: 1em;
+    font-weight: 400;
+    font-size: 11px;
+  }
+.copyright
+{
+  font-size: 11px;
+  margin-top: 2em;
+  color: var(--copyright);
+}
+
